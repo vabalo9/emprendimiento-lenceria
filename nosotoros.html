@@ -6,58 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nosotros</title>
-    <link rel="stylesheet" href="./styles/style.css">
     <link rel="icon" a href="Logo CHICO Re bomba.png">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
 
-
     <header class="encabezado">
-        <div class="menu" >
-            <div class="inicio" >
-                <!---opciones principales-->
-
-                <!--logo -->
-                <div class="inicio__item__arriba">
-                <a href="./index.html">
-                <img src="Logo CHICO Re bomba.png" class=logo alt="logo">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="d-flex justify-content-between ps-2 pe-2 container-fluid">
+                <a class="navbar-brand" href="./index.html"><img class="logo" src="./Logo CHICO Re bomba.png">
                 </a>
-                </div>
-                <!--buscador-->
-                <div class="inicio__item__abajo">
-                <input type="text" class="buscador" placeholder="Buscar..." />
-                </div>
-                
-                <!--ingresar-->
-                <div class="inicio__item__iconos">
-                <a href="./inicio_sesion.html"><img src="./iconos/notificaciones.png"  width="35">
-                </a>
-                <!--carrito-->
-                <a href=""><img src="./iconos/carrito.png" heigth="50" width="50">
-                </a>
-                </div>
-                <div class="hamburguesa">
-                    <!--menu hamburguesa-->
-                    <img src="./iconos/hamburguesa.png" width="50">
+                <form class="formpc" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="search">
+                    <button class="btn btn-outline-success botonBuscador" type="submit">Buscar</button>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./conjuntos.html">Conjuntos</a></li>
+                            <li><a class="dropdown-item" href="./boxers.html">Boxers</a></li>
+                            <li><a class="dropdown-item" href="./medias.html">Medias</a></li>
+                            <li><a class="dropdown-item" href="./remeras.html">Remeras</a></li>
+                            <li><a class="dropdown-item quienes" href="./nosotoros.html">Quienes somos</a></li>
+                        </ul>
+                    </li>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item d-flex flexdirection-row">
+                            <a class="nav-link active" aria-current="page" href="./inicio_sesion.html"><img class="ingresar" src="./iconos/notificaciones.png" alt="" srcset=""></a>
+                            <a class="nav-link" href="#"><img src="./iconos/carrito.png" alt="" class="carrito"></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        
-
-            <div class="galeria">
-                <!--secciones mas importantes de commerce-->
-                <button class="galeria__items"><a href="./medias.html">medias</a></button>
-                <button class="galeria__items"><a href="./remeras.html">remeras</a></button>
-                <button class="galeria__items"><a href="./conjuntos.html">conjuntos</a></button>
-                <button class="galeria__items"><a href="./boxers.html">boxer</a></button>
-            </div>
-            <div class="buscador_mobile">
-                <input type="text" class="buscador" placeholder="Buscar..." />
-                </div>
-        </div>
-
-
-        
+        </nav>
+        <form class="formcelu" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="search">
+            <button class="btn btn-outline-success botonBuscador" type="submit">Buscar</button>
+        </form>
     </header>
 
     
@@ -157,7 +153,7 @@
 
         </main>
     </footer>
-
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

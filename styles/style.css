@@ -13,95 +13,32 @@ body {
     background-color: darkgray;
 }
 
-/*codigo encabezado*/
+p {
+    margin-bottom: 0;
+}
 
-.encabezado {
-    padding-block: 0px;
-    position: fixed;
-    top: 0%;
-    width: 100%;
+/*portada*/
+
+
+.container-fluid {
+
+    background-color: darksalmon;
     z-index: 1;
 }
-.menu {
-    list-style-type: none;
-    background-color: darksalmon;
-    padding: 10px;
-    margin-bottom:0px;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    z-index: 2;
-    
-}
 
-.inicio {
-    display: flex;
-    flex-flow: row;
-    justify-content:space-between;
-    align-items:center;
-    padding-top:0;
-    margin-top:0;
-
-}
-
-.inicio__item {
-    margin: 10px;
-}
-
-.buscador {
-    width: 280px;
-    height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 30px;
-}
 
 .logo {
-    border-radius: 15px;
-    width: 150px;
+    width: 190px;
+    border-radius: 20px;
 }
 
-/*enlacer encabezado*/
-
-.galeria {
-    display: flex;
-    justify-content:space-evenly;
-    align-items: start; 
-    
+.ingresar {
+    width: 40px;
 }
 
-.galeria__items {
-    text-decoration: none;
-    background-color: darksalmon;
-    border: 0;
-    font-size: 30px;
-    padding-bottom:10px;
-
+.carrito {
+    width: 50px;
 }
-
-.galeria a {
-    color: white;
-    text-decoration: none;
-    
-
-}
-
-.galeria a:hover {
-    text-decoration: underline;
-}
-
-.buscador_mobile {
-display: none;
-}
-
-.buscador_mobile input {
-    width: 100%;
-}
-
-.hamburguesa {
-    display: none;
-}
-
 
 
 /*portada*/
@@ -140,6 +77,7 @@ a .enlace  {
     align-items: center;
     height: 100%;
     width: 100%;
+    color: white;
 }
 
 
@@ -497,7 +435,44 @@ padding-inline: 40px;
     font-size: 30px;
 }
 
+.crear {
+    background-color: darksalmon;
+    color: white;
+}
 
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.botonBuscador {
+    border-color: gray;
+    color: gray;
+}
+
+.botonBuscador:hover,
+.botonBuscador:focus {
+    background-color: gray;
+    border-color: gray;
+    box-shadow: none;
+}
+
+.formpc {
+    display: flex;
+}
+
+.formcelu {
+    display: none;
+    background: darksalmon;
+}
+
+
+.quienes {
+    color: darksalmon;
+}
 
 @media screen and (max-width: 1416px) {
     .grid-container {
@@ -568,13 +543,19 @@ padding-inline: 40px;
 }
 
 @media screen and (max-width: 849px) {
-    .contenedor {
-       /* display: none;*/
- }
+  
+    .portada {
+        display: block;
+    }
 
- .portada {
-    display: block;
-}
+    .formpc {
+        display: none;
+    }
+
+    .formcelu {
+        display: flex;
+    }
+
 }
    
 
@@ -635,7 +616,6 @@ padding-inline: 40px;
         
     }
 
-}
 
 @media screen and (max-width: 493px) {
     .contenedor {

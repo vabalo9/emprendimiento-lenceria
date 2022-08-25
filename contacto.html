@@ -55,91 +55,74 @@
             <button class="btn btn-outline-success botonBuscador" type="submit">Buscar</button>
         </form>
     </header>
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img src="./banners/Sexy-art-8149-kaury_LauF560706.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <a href="https://www.bakhou.com.ar/catalogo.php#p=8" title="catalogo bakhou 22/23" target="_blank">
-                <img src="banners/catalogo bakhou.jpg" alt="catalogo bakhou 2022" class="d-block w-100">
-            </a> 
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <a href="https://lody.com.ar/wp-content/uploads/2022/catalogos/LODY-men-2023.pdf" title="catalogo lody 23"
-                target="_blank">
-                <img src="banners/lody_men_2021.jpg" alt="catalogo lody 2022" class="d-block w-100" title="catalogo lody 23">
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <a href="https://www.kaury.com/catalogos/intimates/" target="_blank">
-                <img src="banners/banners-princiapl.jpg" alt="catalogo kaury 2022" class="d-block w-100"
-                    title="catalogo kaury 22">
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="5000" >
-            <a href="https://www.meliferalenceria.com/landingpage/catalogo/catalogo-melifera-2021.pdf" target="_blank">
-                <img src="banners/melifera.jpg" alt="catalogo melifera 2022" class="d-block w-100"
-                    title="catalogo melifera 2021">
-            </a>       
-          </div>
-        </div>
-    </div>
-
     
-    <main>
-
-
+    <form class="d-flex flex-column mb-4">
+        <h4 class="d-flex justify-content-center mt-5 fs-1 text-white "><b>Crea tu cuenta</b></h4>
         
 
+            <div class="formulario d-flex row justify-content-evenly">
+            
+                <div class="col-md-3">
 
-        <div class="pagos">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                            <input type="text" required class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                            <input type="text" required class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="col_one_third col_last">
+                            <label for="nacimiento">Fecha de nacimiento</label>
+                            <input type="date" required id="nacimiento"  name="nacimiento"  class="sm-form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nro de DNI</label>
+                            <input type="number" required class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="col_one_third c-azul col_last ">
+                            <label for="genero">género:</label>
+                            <select name="selectgenero" id="genero" class="dropdown-trigger btn " ="">
+                            <option value="0">Seleccione</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option> 
+                           </select>
+                        </div><div class="mb-">
+                            <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                </div>
 
-            <!--medios de pago-->
+            
+                <div class="col-md-3">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Confirmar Email</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Confirmar contraseña</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1">
+                        </div>
 
-            <img class="visa"
-                src="formas de pago/png-transparent-logo-visa-credit-card-business-visa-text-trademark-payment.png"
-                alt="Visa">
-
-            <img class="master"
-                src="formas de pago/png-transparent-logo-mastercard-font-solar-home-text-orange-logo.png"
-                alt="Mastercard">
-
-            <img class="amex"
-                src="formas de pago/png-transparent-american-express-credit-card-mastercard-visa-payment-credit-card-blue-angle-text.png"
-                alt="american express">
-
-            <img class="paypal" src="formas de pago/png-clipart-paypal-logo-brand-font-payment-paypal-text-logo.png"
-                alt="paypal">
-        </div>
-
-        <!--catalogos-->
-
-        <div class="contenedor">
-            <a class="caja caja1" href="conjuntos.html"><span class="enlace">Conjuntos</span></a>
-            <a class="caja caja2" href="boxers.html"><span class="enlace">Boxers</span></a>
-            <a class="caja caja3" href="remeras.html"><span class="enlace">Remeras</span></a>
-            <a class="caja caja4" href="medias.html"><span class="enlace">Medias</span></a>
-        </div>
-
-       
-
-          <!--logos de las marcas que trabajamos-->
-        <div class="grid-container">
-            <div class="grid-item"><img src="./marcas/Andressa.jpg"></div>
-            <div class="grid-item"><img width="220px" src="./marcas/belen.jpeg"></div>
-            <div class="grid-item"><img src="./marcas/descarga.png"></div>
-            <div class="grid-item"><img src="./marcas/doufour.png"></div>
-            <div class="grid-item"><img src="./marcas/lody-men.jpg" alt=""></div>
-            <div class="grid-item"><img src="./marcas/logo Bakhou.png" alt=""></div>
-            <div class="grid-item"><img width="220px" src="./marcas/logo-Natubel.jpg" alt=""></div>
-            <div class="grid-item"><img width="220px" src="./marcas/marcela Koury.png" alt=""></div>
-        </div>
+                </div>
+            </div>
         
-        
-    </main>
+        <div class="d-flex justify-content-center">
+            <button type="submit" value="submit" class="crear btn  btn-lg">Crear mi cuenta</button>
+                       
+        </div>
+    
+    
 
+    </form>
     <footer>
         <!--informacion sobre la empresa-->
         <main class="pie-pagina">
@@ -173,7 +156,7 @@
                 </div>
             </nav>
 
-            <p class="copyright">© Copyright - 2020 - 2022 www.rebomba.com.ar, TODOS LOS DERECHOS RESERVADOS. Las fotos
+            <p class=" copyright">© Copyright - 2020 - 2022 www.rebomba.com.ar, TODOS LOS DERECHOS RESERVADOS. Las fotos
                 contenidas
                 en este site, el logotipo y las marcas son propiedad de Rebomba.com.ar y/o de sus respectivos titulares.
                 Está prohibida la reproducción total o parcial, sin la expresa autorización de la administradora de la
