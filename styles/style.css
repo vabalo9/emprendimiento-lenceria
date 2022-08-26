@@ -189,7 +189,7 @@ background-image: url("../banners/medias.jpg");
 
 .boxer_shop {
 
-    padding-top: 150px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -208,7 +208,7 @@ background-image: url("../banners/medias.jpg");
 
 .articulo {
    padding: 10px;
-   margin-block: 40px;
+   margin-block: 45px;
    border-radius: 20px;
    width: 100%;
    transition: all .2s;
@@ -363,53 +363,46 @@ padding-inline: 40px;
 
 }
 
-/*Inicio sesion*/
-
-.ingresa_items__leyenda {
-    color: white;
-    font-size: 50px;
-    padding-bottom: 5px;
-    margin-inline: center;
-
-}
-
-.sesion {
-    width: 100%;
-    margin-top: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cuenta {
-    margin-inline:center;
-    margin-bottom: 10px;
-    padding-block: 25px;
+    margin-block: 40px;
     display: flex;
-    flex-direction: column;
-    
-    
-
-}
-
-.ingresa_items {
-    color: black;    
-    margin-block: 5px;
-    border-radius: 10px;
-    padding: 10px;
-    width: 300px;
-    height: 30px;
-    display: flex;
+    align-items: center;
     justify-content: center;
-   
+    
 }
 
+.cuenta h1 {
+   font-size: 50px;
+   color: white; 
+}
 
-.ingresa_items_buttom {
-    width: 150px;
+.hace {
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    shadow:none;
+    
+}
+
+.hace:hover {
+    text-decoration: none;
+}
+
+.ingreso {
     background-color: darksalmon;
-    border-radius: 10px;
+    border-color: darksalmon;
+    
 }
+
+.ingreso:hover {
+    text-decoration: none;
+    background-color: darksalmon;
+    border-color: darksalmon;
+    box-shadow: none;
+    color: darkgray;
+    
+}
+
 
 /*nosotros.html*/
 
