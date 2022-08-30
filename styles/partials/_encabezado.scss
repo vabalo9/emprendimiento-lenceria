@@ -1,0 +1,60 @@
+/*portada*/
+
+
+.logo {
+    .dropdown {
+        list-style-type:none;
+    }
+
+    background-color: darksalmon;
+    z-index: 1;
+
+    .logo {
+        width: 190px;
+        border-radius: 20px;
+    }
+
+    .ingresar {
+        width: 40px;
+    }
+
+    .carrito {
+        width: 50px;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+   .formpc {
+    display: flex;
+    .botonBuscador {
+        border-color: gray;
+        color: beige;
+    }
+
+    .botonBuscador:hover,
+    .botonBuscador:focus {
+    background-color: gray;
+    border-color: gray;
+    box-shadow: none;
+    }
+
+   }
+}
+
+.formcelu {
+    display: none;
+    background: darksalmon;
+    .botonEncontrador {
+        border-color: gray;
+        color: beige;
+
+    .botonEncontrador:hover,
+    .botonEncontrador:focus {
+    background-color: gray;
+    border-color: gray;
+    box-shadow: none;
+    }
+    }
+}

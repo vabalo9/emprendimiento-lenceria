@@ -17,7 +17,7 @@ p {
     margin-bottom: 0;
 }
 
-/*portada*/
+/*encabezado*/
 
 
 .container-fluid {
@@ -39,6 +39,36 @@ p {
 .carrito {
     width: 50px;
 }
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.botonBuscador {
+    border-color: gray;
+    color: beige;
+}
+
+.botonBuscador:hover,
+.botonBuscador:focus {
+    background-color: gray;
+    border-color: gray;
+    box-shadow: none;
+}
+
+.formpc {
+    display: flex;
+}
+
+.formcelu {
+    display: none;
+    background: darksalmon;
+}
+
 
 
 /*portada*/
@@ -130,10 +160,6 @@ background-image: url("../banners/medias.jpg");
     width: 100%;
     
 }
-
-/*.button-container {
-    display: none;
-    }*/
 
 
 /*medios de pago*/
@@ -380,7 +406,8 @@ padding-inline: 40px;
     text-decoration: none;
     color: white;
     text-decoration: none;
-    shadow:none;
+    /*en caso de fallo quitar box*/
+    box-shadow:none;
     
 }
 
@@ -407,7 +434,7 @@ padding-inline: 40px;
 /*nosotros.html*/
 
 .titulo {
-    margin-top: 150px;
+    margin-top: 40px;
     margin-bottom: 0px;
     margin-left: 20px;
     color: white;
@@ -433,34 +460,6 @@ padding-inline: 40px;
     color: white;
 }
 
-.navbar-collapse {
-    flex-grow: 0;
-}
-
-.nav-item {
-    list-style: none;
-}
-
-.botonBuscador {
-    border-color: gray;
-    color: gray;
-}
-
-.botonBuscador:hover,
-.botonBuscador:focus {
-    background-color: gray;
-    border-color: gray;
-    box-shadow: none;
-}
-
-.formpc {
-    display: flex;
-}
-
-.formcelu {
-    display: none;
-    background: darksalmon;
-}
 
 
 .quienes {
@@ -570,9 +569,7 @@ padding-inline: 40px;
     .galeria {
         display: none;
     }
-    .hamburguesa {
-        display: block;
-    }
+    
     .inicio__item__iconos {
         display: none;
     }   
@@ -608,7 +605,7 @@ padding-inline: 40px;
         
         
     }
-
+}
 
 @media screen and (max-width: 493px) {
     .contenedor {

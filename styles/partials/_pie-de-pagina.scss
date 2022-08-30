@@ -1,0 +1,110 @@
+.wpp {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 80px;
+
+}
+
+
+/*pie de pagina*/
+
+footer {
+    background-color: darksalmon;
+    margin-top: 0%;
+    /*padding-top: 30px;*/
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+
+    .about {
+        padding-inline: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        
+            
+
+            .general {
+                display: flex;
+                flex-direction: row;
+            
+            
+            
+                .info1  {
+                    font-size: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    padding-inline: 20px;
+                    padding-block: 10px;
+                    .pie-pagina__item {
+                        padding-block: 5px;
+                    }
+                    .pie-pagina__item a {
+                        color: beige;
+                        text-decoration: none;
+                    }
+                    .pie-pagina__item a:hover {
+                        text-decoration: underline;
+                    }
+
+
+                }
+                .info2  {
+
+                    font-size: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    padding-inline: 20px;
+                    padding-block: 10px;
+                    .pie-pagina__item {
+                        padding-block: 5px;
+                    }
+                    .pie-pagina__item a {
+                        color: beige;
+                        text-decoration: none;
+                    }
+                    .pie-pagina__item a:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            
+    }
+
+    .numero {
+        color: beige;
+    }
+    p {
+        margin-inline: 20px;
+        
+    }
+}
+
+@media screen and (max-width: 627px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .copyright {
+        display: none;
+    }
+
+} 
+
+@media screen and (max-width: 582px) {
+    
+    .formpc {
+        display: none;
+    }
+    
+    
+    .formcelu {
+        display: flex;
+    }
+
+    
+
+}
