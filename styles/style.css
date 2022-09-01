@@ -17,7 +17,7 @@ p {
     margin-bottom: 0;
 }
 
-/*encabezado*/
+/*portada*/
 
 
 .container-fluid {
@@ -39,36 +39,6 @@ p {
 .carrito {
     width: 50px;
 }
-
-.navbar-collapse {
-    flex-grow: 0;
-}
-
-.nav-item {
-    list-style: none;
-}
-
-.botonBuscador {
-    border-color: gray;
-    color: beige;
-}
-
-.botonBuscador:hover,
-.botonBuscador:focus {
-    background-color: gray;
-    border-color: gray;
-    box-shadow: none;
-}
-
-.formpc {
-    display: flex;
-}
-
-.formcelu {
-    display: none;
-    background: darksalmon;
-}
-
 
 
 /*portada*/
@@ -162,6 +132,8 @@ background-image: url("../banners/medias.jpg");
 }
 
 
+
+
 /*medios de pago*/
 
 .pagos {
@@ -215,7 +187,7 @@ background-image: url("../banners/medias.jpg");
 
 .boxer_shop {
 
-    padding-top: 20px;
+    padding-top: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -234,7 +206,7 @@ background-image: url("../banners/medias.jpg");
 
 .articulo {
    padding: 10px;
-   margin-block: 45px;
+   margin-block: 40px;
    border-radius: 20px;
    width: 100%;
    transition: all .2s;
@@ -268,7 +240,7 @@ background-image: url("../banners/medias.jpg");
     border: none;
     border-radius: 10px;
     padding: 15px;
-   /* transition: all 1s;*/
+   
     
 
 }
@@ -389,6 +361,11 @@ padding-inline: 40px;
 
 }
 
+
+
+
+/*Inicio sesion*/
+
 .cuenta {
     margin-block: 40px;
     display: flex;
@@ -406,13 +383,12 @@ padding-inline: 40px;
     text-decoration: none;
     color: white;
     text-decoration: none;
-    /*en caso de fallo quitar box*/
-    box-shadow:none;
     
 }
 
 .hace:hover {
     text-decoration: none;
+    color: white;
 }
 
 .ingreso {
@@ -426,7 +402,7 @@ padding-inline: 40px;
     background-color: darksalmon;
     border-color: darksalmon;
     box-shadow: none;
-    color: darkgray;
+    color: white;
     
 }
 
@@ -434,7 +410,7 @@ padding-inline: 40px;
 /*nosotros.html*/
 
 .titulo {
-    margin-top: 40px;
+    margin-top: 150px;
     margin-bottom: 0px;
     margin-left: 20px;
     color: white;
@@ -460,6 +436,34 @@ padding-inline: 40px;
     color: white;
 }
 
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.botonBuscador {
+    border-color: gray;
+    color: gray;
+}
+
+.botonBuscador:hover,
+.botonBuscador:focus {
+    background-color: gray;
+    border-color: gray;
+    box-shadow: none;
+}
+
+.formpc {
+    display: flex;
+}
+
+.formcelu {
+    display: none;
+    background: darksalmon;
+}
 
 
 .quienes {
@@ -569,7 +573,9 @@ padding-inline: 40px;
     .galeria {
         display: none;
     }
-    
+    .hamburguesa {
+        display: block;
+    }
     .inicio__item__iconos {
         display: none;
     }   
@@ -606,6 +612,7 @@ padding-inline: 40px;
         
     }
 }
+
 
 @media screen and (max-width: 493px) {
     .contenedor {

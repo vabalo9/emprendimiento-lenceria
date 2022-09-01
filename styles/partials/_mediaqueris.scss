@@ -1,0 +1,33 @@
+@media screen and (max-width: 627px) {
+
+    footer {
+        .about {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .copyright {
+            display: none;
+        }
+
+    } 
+}
+
+@media screen and (max-width: 582px) {
+
+    .logo {
+        .formpc {
+        display: none;
+        }
+    }
+    
+    .formcelu {
+        display: flex;
+        
+    }
+    
+    
+
+    
+
+}

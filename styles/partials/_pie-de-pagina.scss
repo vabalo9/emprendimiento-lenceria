@@ -3,7 +3,6 @@
     bottom: 20px;
     right: 10px;
     width: 80px;
-
 }
 
 
@@ -82,29 +81,3 @@ footer {
     }
 }
 
-@media screen and (max-width: 627px) {
-    .about {
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .copyright {
-        display: none;
-    }
-
-} 
-
-@media screen and (max-width: 582px) {
-    
-    .formpc {
-        display: none;
-    }
-    
-    
-    .formcelu {
-        display: flex;
-    }
-
-    
-
-}

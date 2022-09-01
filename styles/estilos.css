@@ -56,6 +56,23 @@
   box-shadow: none;
 }
 
+.principal {
+  padding-block: 30px;
+  padding-inline: 50px;
+  background-color: darkgray;
+}
+.principal h1 {
+  margin-left: 20px;
+  color: white;
+  font-size: 60px;
+}
+.principal p {
+  color: white;
+  font-size: 30px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
 .wpp {
   position: fixed;
   bottom: 20px;
@@ -124,50 +141,16 @@ footer p {
 }
 
 @media screen and (max-width: 627px) {
-  .about {
+  footer .about {
     display: flex;
     flex-direction: column;
   }
-  .copyright {
+  footer .copyright {
     display: none;
   }
 }
 @media screen and (max-width: 582px) {
-  .formpc {
-    display: none;
-  }
-  .formcelu {
-    display: flex;
-  }
-}
-.principal {
-  padding-block: 30px;
-  padding-inline: 50px;
-  background-color: darkgray;
-}
-.principal h1 {
-  margin-left: 20px;
-  color: white;
-  font-size: 60px;
-}
-.principal p {
-  color: white;
-  font-size: 50px;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-@media screen and (max-width: 627px) {
-  .about {
-    display: flex;
-    flex-direction: column;
-  }
-  .copyright {
-    display: none;
-  }
-}
-@media screen and (max-width: 582px) {
-  .formpc {
+  .logo .formpc {
     display: none;
   }
   .formcelu {
