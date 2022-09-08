@@ -1,8 +1,6 @@
 .cuenta {
     margin-block: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %center;
     
 }
 
@@ -15,7 +13,6 @@
     text-decoration: none;
     color: white;
     text-decoration: none;
-    /*en caso de fallo quitar box*/
     box-shadow:none;
     
 }

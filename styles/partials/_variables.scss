@@ -1,3 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600;700&display=swap');
 
 $cursive:"Edu VIC WA NT Beginner", cursive;
+
+%galeria {
+    text-decoration: none;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+%center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex($justify, $aling) {
+    justify-content: $justify;
+    align-items: $aling;
+}
+

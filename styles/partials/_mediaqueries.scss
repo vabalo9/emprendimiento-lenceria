@@ -29,13 +29,13 @@
         
     }
 
-    .about {
+    /*.about {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-bottom: 0px;
 
-    }
+    }*/
 }
 
 @media screen and (max-width: 907px) {
@@ -79,13 +79,16 @@
 
 
 @media screen and (max-width: 627px) {
-    .about {
-        display: flex;
-        flex-direction: column;
+    .pie-pagina {
         
-    }
-    .copyright {
-        display: none;
+        .about {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 40px;
+        }
+        .copyright {
+            display: none;
+        }
     }
 }
 
@@ -107,42 +110,37 @@
 }
 
 @media screen and (max-width: 620px) {
-    .buscador_mobile {
-       display: block;
-   }
-
    .inicio {
        margin-bottom: 10px;
-   }
+    }
 
    .inicio__item__abajo {
        display: none;
-   }
+    }
 
    .galeria {
        display: none;
-   }
+    }
    
    .inicio__item__iconos {
        display: none;
-   }   
+    }   
    .grid-container {
        margin-top:10px;
        margin-inline: 20px;
        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
        grid-auto-rows: minmax(100px, auto);
        gap: 20px;
-   }
+    }
    .pagos img {
-   height: 50px;
-   }
+        height: 50px;
+    }
+
    
    .boxer_shop {
-   display: flex;
-   justify-content: center;
-   
-
-   }
+        display: flex;
+        justify-content: center;
+    }
 
  
 
@@ -153,11 +151,8 @@
    }
 
    .portada {
-       
        margin-top: 95px;
-       
-       
-   }
+    }
 }
 
 @media screen and (max-width: 493px) {

@@ -11,27 +11,32 @@
 }
 
 .caja {
+    @extend %galeria;
     height: 100vh;
 }
 
 .caja1 {
- text-decoration: none;
- color: white;
- background-image: url("../banners/conjuntos.jpeg");
- background-position: center;
- background-size: cover;
- display: flex;
- justify-content: center;
- align-items: center;
- font-size: 60px;
- 
+    background-image: url("../banners/conjuntos.jpeg");
 }
+
+
+.caja2 {
+    background-image: url("../banners/boxers.jpg");
+}
+
+.caja3 {
+    background-image: url("../banners/pijamas.jpg");
+}
+
+.caja4 {
+    background-image: url("../banners/medias.jpg");
+}
+
 
 a .enlace  {
     display: none;
-    background-color: rgba(0, 0, 0, 0.704);
-    justify-content: center;
-    align-items: center;
+    background-color: rgba(0, 0, 0, 0.683);
+    @include flex(center,center);
     height: 100%;
     width: 100%;
     color: white;
@@ -41,56 +46,6 @@ a .enlace  {
 a:hover .enlace {
     display: flex;
 }
-
-
-.caja2 {
-    text-decoration: none;
-    color: white;
-    background-image: url("../banners/boxers.jpg");
- background-position: center;
- background-size: cover;
- display: flex;
- justify-content: center;
- align-items: center;
- font-size: 60px;
-}
-
-.caja3 {
-    text-decoration: none;
-    color: white;
-background-image: url("../banners/pijamas.jpg");
- background-position: center;
- background-size: cover;
- display: flex;
- justify-content: center;
- align-items: center;
- font-size: 60px;
-
-}
-
-.caja4 {
-    text-decoration: none;
-    color: white;
-background-image: url("../banners/medias.jpg");
- background-position: center;
- background-size: cover;
- display: flex;
- justify-content: center;
- align-items: center;
- font-size: 60px;
-
-}
-
-<<<<<<< HEAD
-=======
-.portada {
-    display: none;
-    margin-top: 55px;
-    width: 100%;
-    
-}
-
->>>>>>> piloto
 
 /*medios de pago*/
 
@@ -110,9 +65,7 @@ background-image: url("../banners/medias.jpg");
 
 .grid-item {
     margin-block:1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %center;
     background-size: cover;
     background-position: center;
     
@@ -131,12 +84,10 @@ background-image: url("../banners/medias.jpg");
 
 .grid-item img {
     max-width: 100%;
-<<<<<<< HEAD
-=======
 }
 
 /*Catalogos*/
 .catalogo {
     width: 100%;
->>>>>>> piloto
+
 }

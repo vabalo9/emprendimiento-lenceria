@@ -25,7 +25,7 @@
         padding-inline: 45px;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 30px;
+        
 
         .info {
             display: flex;
@@ -40,31 +40,14 @@
                     font-size: 25px;
                 }
                 .pie-pagina__item a {
-                    color: beige;
                     text-decoration: none;
                 }
             
                 .pie-pagina__item a:hover {
                     text-decoration: underline;
                 }
-            }
-        }
 
-        .info2 {
-            display: flex;
-            flex-direction: column;
-            .pie-pagina__item {
-                padding-inline:  20px;
-                padding-block: 10px;
-                font-size: 25px;
-            }
-            .pie-pagina__item a {
-                color: beige;
-                text-decoration: none;
-            }
-        
-            .pie-pagina__item a:hover {
-                text-decoration: underline;
+                
             }
         }
         
@@ -91,11 +74,23 @@
 
     .copyright {
     color: black;
+    padding-top: 30px;
     padding-inline: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     }
 }
+$enlaces: (
+    verde:green,
+    azul:blue,
+    rojo:red,
+    amarillo:yellow
+    );
 
+    @each $span, $color in $enlaces {
+        .pie-pagina__item-#{$span} a {
+            color: $color;
+        }
+    }
 
 
 
