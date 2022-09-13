@@ -357,6 +357,7 @@ a:hover .enlace {
 }
 .pie-pagina .about .info .info1 .pie-pagina__item a {
   text-decoration: none;
+  color: beige;
 }
 .pie-pagina .about .info .info1 .pie-pagina__item a:hover {
   text-decoration: underline;
@@ -379,22 +380,6 @@ a:hover .enlace {
   padding-top: 30px;
   padding-inline: 40px;
   padding-bottom: 20px;
-}
-
-.pie-pagina__item-verde a {
-  color: green;
-}
-
-.pie-pagina__item-azul a {
-  color: blue;
-}
-
-.pie-pagina__item-rojo a {
-  color: red;
-}
-
-.pie-pagina__item-amarillo a {
-  color: yellow;
 }
 
 @media screen and (max-width: 1416px) {
@@ -494,8 +479,7 @@ a:hover .enlace {
     display: flex;
     justify-content: center;
   }
-  .grande1,
-.grande2 {
+  .grande {
     flex-direction: column;
     justify-content: center;
   }

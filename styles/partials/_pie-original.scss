@@ -41,6 +41,7 @@
                 }
                 .pie-pagina__item a {
                     text-decoration: none;
+                    color: beige;
                 }
             
                 .pie-pagina__item a:hover {
@@ -79,18 +80,7 @@
     padding-bottom: 20px;
     }
 }
-$enlaces: (
-    verde:green,
-    azul:blue,
-    rojo:red,
-    amarillo:yellow
-    );
 
-    @each $span, $color in $enlaces {
-        .pie-pagina__item-#{$span} a {
-            color: $color;
-        }
-    }
 
 
 
