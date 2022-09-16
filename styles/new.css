@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600;700&display=swap");
+/*@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600;700&family=Oswald:wght@200&display=swap');
+*/
 .caja {
   text-decoration: none;
   color: white;
@@ -129,7 +130,7 @@ a:hover .enlace {
 }
 
 .pagos img {
-  height: 100px;
+  height: 60px;
 }
 
 /*imagenes de marcas*/
@@ -161,13 +162,14 @@ a:hover .enlace {
 /*boxers, medias, conjuntos*/
 .boxer_shop {
   padding-top: 20px;
+  margin-inline: 150px;
   display: flex;
   flex-direction: column;
 }
 
 .grande {
   display: flex;
-  gap: 1.5%;
+  gap: 5%;
 }
 
 /*articulos*/
@@ -178,9 +180,9 @@ a:hover .enlace {
 }
 
 .articulo_hijo {
+  margin-block: 30px;
   padding: 10px;
-  margin-block: 45px;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 100%;
 }
 
@@ -220,13 +222,15 @@ a:hover .enlace {
 }
 
 .articulo_imagen {
-  width: 100%;
+  max-width: 100%;
   border-radius: 10px;
 }
 
 .articulo_titulo {
+  padding-top: 10px;
+  padding-inline: 20px;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .articulo_parrafo {
@@ -250,10 +254,9 @@ a:hover .enlace {
   font-size: 20px;
 }
 
-.articulo__imagen,
-.articulo_titulo,
-.articulo_parrafo {
-  margin-bottom: 10px;
+.precio {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 @-webkit-keyframes scale-up-center {
@@ -306,15 +309,26 @@ a:hover .enlace {
   color: black;
 }
 
-.somos {
+.titular {
+  margin-inline: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: beige;
+}
+
+.content {
   margin-top: px;
   margin-bottom: 50px;
-  margin-inline: 40px;
+  margin-inline: 200px;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
-.somos .parrafos {
+.content .parrafos {
   margin-block: 20px;
+}
+
+.title {
+  margin-top: 40px;
 }
 
 /*simbolo whast app*/
@@ -322,7 +336,7 @@ a:hover .enlace {
   position: fixed;
   bottom: 20px;
   right: 10px;
-  width: 80px;
+  width: 60px;
 }
 
 /* Pie de pagina*/
@@ -353,7 +367,7 @@ a:hover .enlace {
 .pie-pagina .about .info .info1 .pie-pagina__item {
   padding-inline: 20px;
   padding-block: 10px;
-  font-size: 25px;
+  font-size: 15 px;
 }
 .pie-pagina .about .info .info1 .pie-pagina__item a {
   text-decoration: none;
@@ -370,15 +384,17 @@ a:hover .enlace {
   display: flex;
   align-items: flex-start;
 }
-.pie-pagina .about .atencion .numero {
-  font-size: 20px;
-  padding-top: 0%;
-  margin-top: 0%;
+.pie-pagina .about .atencion .numero .contacto {
+  font-size: 30px;
+}
+.pie-pagina .about .atencion .numero .instagram {
+  width: 50px;
 }
 .pie-pagina .copyright {
   color: black;
+  font-size: 11px;
   padding-top: 30px;
-  padding-inline: 40px;
+  padding-inline: 80px;
   padding-bottom: 20px;
 }
 
@@ -410,6 +426,14 @@ a:hover .enlace {
 
   }*/
 }
+.boxer_shop {
+  margin-inline: 40px;
+}
+
+.content {
+  margin-inline: 100px;
+}
+
 @media screen and (max-width: 907px) {
   .grid-container {
     margin-top: 50px;
@@ -417,7 +441,7 @@ a:hover .enlace {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
   .pagos img {
-    height: 75px;
+    height: 50px;
   }
   .copyright {
     display: none;
@@ -432,6 +456,9 @@ a:hover .enlace {
   }
   .formcelu {
     display: flex;
+  }
+  .boxer_shop {
+    margin-inline: 20px;
   }
 }
 @media screen and (max-width: 627px) {
@@ -473,11 +500,12 @@ a:hover .enlace {
     gap: 20px;
   }
   .pagos img {
-    height: 50px;
+    height: 30px;
   }
   .boxer_shop {
     display: flex;
     justify-content: center;
+    margin-inline: 90px;
   }
   .grande {
     flex-direction: column;
@@ -485,6 +513,9 @@ a:hover .enlace {
   }
   .portada {
     margin-top: 95px;
+  }
+  .content {
+    margin-inline: 60px;
   }
 }
 @media screen and (max-width: 493px) {

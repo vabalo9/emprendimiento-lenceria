@@ -5,13 +5,14 @@
 .boxer_shop {
 
     padding-top: 20px;
+    margin-inline: 150px;
     display: flex;
     flex-direction: column;
 }
 
 .grande {
     display: flex;
-    gap: 1.5%;
+    gap:5%;
 }
 
 /*articulos*/
@@ -22,9 +23,9 @@
 }
 
 .articulo_hijo {
-   padding: 10px;
-   margin-block: 45px;
-   border-radius: 20px;
+   margin-block: 30px;
+   padding:10px;
+   border-radius: 10px;
    width: 100%;
  }
 
@@ -40,14 +41,16 @@
 
 
 .articulo_imagen {
-    width: 100%;
+    max-width: 100%;
     border-radius: 10px;
 
 }
 
 .articulo_titulo {
+    padding-top: 10px;
+    padding-inline: 20px;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
    
 }
 
@@ -72,21 +75,17 @@
 .letra_boton {
     color: white;
     font-size: 20px;
-    
-
-
 }
 
-.articulo__imagen,
-.articulo_titulo,
-.articulo_parrafo {
-    margin-bottom: 10px; 
+.precio {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
-
-
 
 
  @-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)
 }100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{
     -webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);
         transform:scale(1)}}
+
+    

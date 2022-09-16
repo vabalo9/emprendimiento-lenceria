@@ -37,6 +37,18 @@
 
     }*/
 }
+@media screen and (max-width: 987px) {
+
+}
+.boxer_shop {
+    margin-inline: 40px;
+    
+}
+
+.content {
+    margin-inline: 100px;
+}
+
 
 @media screen and (max-width: 907px) {
     .grid-container {
@@ -48,7 +60,7 @@
     
 
     .pagos img {
-        height: 75px;
+        height: 50px;
     }
 
     
@@ -73,6 +85,12 @@
         display: flex;
     }
 
+    .boxer_shop {
+        margin-inline: 20px;
+        
+    }
+
+    
 }
 
 
@@ -133,13 +151,14 @@
        gap: 20px;
     }
    .pagos img {
-        height: 50px;
+        height: 30px;
     }
 
    
    .boxer_shop {
         display: flex;
         justify-content: center;
+        margin-inline: 90px;
     }
 
  
@@ -152,6 +171,11 @@
    .portada {
        margin-top: 95px;
     }
+
+    .content {
+        margin-inline: 60px;
+    }
+    
 }
 
 @media screen and (max-width: 493px) {
