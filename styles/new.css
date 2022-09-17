@@ -1,5 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600;700&family=Oswald:wght@200&display=swap');
-*/
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600;700&family=Oswald:wght@200&display=swap");
 .caja {
   text-decoration: none;
   color: white;
@@ -161,8 +160,8 @@ a:hover .enlace {
 
 /*boxers, medias, conjuntos*/
 .boxer_shop {
-  padding-top: 20px;
-  margin-inline: 150px;
+  padding-inline: 120px;
+  margin-block: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -317,7 +316,6 @@ a:hover .enlace {
 }
 
 .content {
-  margin-top: px;
   margin-bottom: 50px;
   margin-inline: 200px;
   color: white;
@@ -404,6 +402,9 @@ a:hover .enlace {
     margin-inline: 90px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
+  .content {
+    margin-inline: 80px;
+  }
 }
 @media screen and (max-width: 1039px) {
   .grid-container {
@@ -411,29 +412,21 @@ a:hover .enlace {
     margin-inline: 90px;
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   }
+  .boxer_shop {
+    padding-inline: 20px;
+  }
 }
+.content {
+  padding-inline: 100px;
+}
+
 @media screen and (max-width: 983px) {
   .info {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
   }
-  /*.about {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-bottom: 0px;
-
-  }*/
 }
-.boxer_shop {
-  margin-inline: 40px;
-}
-
-.content {
-  margin-inline: 100px;
-}
-
 @media screen and (max-width: 907px) {
   .grid-container {
     margin-top: 50px;
@@ -445,6 +438,9 @@ a:hover .enlace {
   }
   .copyright {
     display: none;
+  }
+  .content {
+    margin-inline: 40px;
   }
 }
 @media screen and (max-width: 849px) {
@@ -458,7 +454,15 @@ a:hover .enlace {
     display: flex;
   }
   .boxer_shop {
-    margin-inline: 20px;
+    padding-inline: 20px;
+  }
+  .titular {
+    display: flex;
+    justify-content: center;
+  }
+  .content {
+    margin-inline: 45px;
+    padding-inline: 0;
   }
 }
 @media screen and (max-width: 627px) {
@@ -477,6 +481,10 @@ a:hover .enlace {
   }
   .encabezado .formcelu {
     display: flex;
+  }
+  .content {
+    margin-inline: 10px;
+    padding-inline: 0;
   }
 }
 @media screen and (max-width: 620px) {
@@ -505,7 +513,7 @@ a:hover .enlace {
   .boxer_shop {
     display: flex;
     justify-content: center;
-    margin-inline: 90px;
+    padding-inline: 90px;
   }
   .grande {
     flex-direction: column;
@@ -516,6 +524,11 @@ a:hover .enlace {
   }
   .content {
     margin-inline: 60px;
+  }
+}
+@media screen and (max-width: 558px) {
+  .boxer_shop {
+    padding-inline: 40px;
   }
 }
 @media screen and (max-width: 493px) {
@@ -547,5 +560,8 @@ a:hover .enlace {
     background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
     width: 100%;
+  }
+  .boxer_shop {
+    padding-inline: 20px;
   }
 }/*# sourceMappingURL=new.css.map */
