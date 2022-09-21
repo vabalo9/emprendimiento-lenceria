@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600;700&family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600;700&family=Rubik:ital@1&display=swap");
 .caja {
   text-decoration: none;
   color: white;
@@ -329,6 +329,37 @@ a:hover .enlace {
   margin-top: 40px;
 }
 
+.preguntas {
+  color: white;
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+
+.acordeon {
+  margin-inline: 150px;
+  margin-bottom: 30px;
+}
+
+.barrilete {
+  background-color: darkgray;
+  color: white;
+  font-size: 20px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.envio {
+  padding-top: 40px;
+}
+
+.demora {
+  padding-bottom: 30px;
+}
+
 /*simbolo whast app*/
 .wpp {
   position: fixed;
@@ -388,12 +419,22 @@ a:hover .enlace {
 .pie-pagina .about .atencion .numero .instagram {
   width: 50px;
 }
-.pie-pagina .copyright {
-  color: black;
-  font-size: 11px;
+.pie-pagina .fondo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding-top: 30px;
-  padding-inline: 80px;
+  margin-inline: 80px;
   padding-bottom: 20px;
+}
+.pie-pagina .fondo .chico {
+  border-radius: 15px;
+  width: 150px;
+  margin-right: 40px;
+}
+.pie-pagina .fondo .copyright {
+  color: black;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1416px) {

@@ -77,13 +77,24 @@
 
 
     }
+    .fondo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+        margin-inline: 80px;
+        padding-bottom: 20px;
 
-    .copyright {
-    color: black;
-    font-size: 11px;
-    padding-top: 30px;
-    padding-inline: 80px;
-    padding-bottom: 20px;
+        .chico {
+            border-radius: 15px;
+            width: 150px;
+            margin-right: 40px;
+        }
+        .copyright {
+        color: black;
+        font-size: 14px;
+        
+        }
     }
 }
 
