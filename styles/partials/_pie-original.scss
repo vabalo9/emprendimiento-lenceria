@@ -7,6 +7,13 @@
     width: 60px;
 }
 
+.flecha {
+    position: absolute;
+    bottom: 140px;
+    right: 40px;
+    width: 40px;
+}
+
 /* Pie de pagina*/
 .pie-pagina {
     background-color: darksalmon;
@@ -67,8 +74,9 @@
                     font-size: 30px;
                 }
                 .instagram {
-                    width: 50px;
+                        width: 50px;
                 }
+                
 
             }
         }
@@ -84,11 +92,12 @@
         padding-top: 30px;
         margin-inline: 80px;
         padding-bottom: 20px;
+        gap: 15px;
 
         .chico {
             border-radius: 15px;
             width: 150px;
-            margin-right: 40px;
+        
         }
         .copyright {
         color: black;

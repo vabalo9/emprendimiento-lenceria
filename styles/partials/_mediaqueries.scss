@@ -57,12 +57,30 @@
 
     
 
-    .copyright {
+    .fondo {
         display: none;
     }
 
     .content {
         margin-inline: 40px;
+    }
+}
+
+@media screen and (max-width: 872px) {
+    .pie-pagina {
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 40px;
+
+            
+        }
+
+    }
+
+    .flecha {
+        bottom: 300px;
     }
 }
 
@@ -106,12 +124,7 @@
 @media screen and (max-width: 627px) {
     .pie-pagina {
         
-        .about {
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 40px;
-        }
-        .copyright {
+        .fondo {
             display: none;
         }
     }
@@ -194,12 +207,16 @@
         padding-inline: 40px;
 
     }
+
+    .pagos {
+        margin-block: 20px;
+    }
 }
+
 
 
 @media screen and (max-width: 493px) {
     .contenedor {
-        padding-top: 100px;
         width: 100%;
         height: 100%;
         display: grid;

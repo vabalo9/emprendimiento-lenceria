@@ -9,6 +9,29 @@
     font-size: 20px;
 }
 
+.barrilete:not(.collapsed) {
+    background-color: darkgray;
+    color: white;
+}
+
+.barrilete:focus  { 
+    
+    border: 0;
+    box-shadow:none !important;  
+}
+
+
+
+.accordion {
+  
+   --bs-accordion-border-color:none;
+}
+
+.accordion-button::after {
+    color: white;
+    
+}
+
 .texto {
     display: flex;
     flex-direction: column;

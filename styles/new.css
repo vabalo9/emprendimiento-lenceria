@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600;700&family=Rubik:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600;700&family=Fira+Sans:wght@300&display=swap");
 .caja {
   text-decoration: none;
   color: white;
@@ -20,7 +20,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-family: "Fira Sans", sans-serif;
 }
 
 body {
@@ -80,7 +80,6 @@ p {
 
 /*portada*/
 .contenedor {
-  padding-top: 50px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -123,7 +122,7 @@ a:hover .enlace {
 
 /*medios de pago*/
 .pagos {
-  margin-top: 10px;
+  margin-block: 40px;
   display: flex;
   justify-content: space-around;
 }
@@ -346,6 +345,24 @@ a:hover .enlace {
   font-size: 20px;
 }
 
+.barrilete:not(.collapsed) {
+  background-color: darkgray;
+  color: white;
+}
+
+.barrilete:focus {
+  border: 0;
+  box-shadow: none !important;
+}
+
+.accordion {
+  --bs-accordion-border-color:none;
+}
+
+.accordion-button::after {
+  color: white;
+}
+
 .texto {
   display: flex;
   flex-direction: column;
@@ -366,6 +383,13 @@ a:hover .enlace {
   bottom: 20px;
   right: 10px;
   width: 60px;
+}
+
+.flecha {
+  position: absolute;
+  bottom: 140px;
+  right: 40px;
+  width: 40px;
 }
 
 /* Pie de pagina*/
@@ -426,11 +450,11 @@ a:hover .enlace {
   padding-top: 30px;
   margin-inline: 80px;
   padding-bottom: 20px;
+  gap: 15px;
 }
 .pie-pagina .fondo .chico {
   border-radius: 15px;
   width: 150px;
-  margin-right: 40px;
 }
 .pie-pagina .fondo .copyright {
   color: black;
@@ -477,11 +501,21 @@ a:hover .enlace {
   .pagos img {
     height: 50px;
   }
-  .copyright {
+  .fondo {
     display: none;
   }
   .content {
     margin-inline: 40px;
+  }
+}
+@media screen and (max-width: 872px) {
+  .pie-pagina .about {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+  .flecha {
+    bottom: 300px;
   }
 }
 @media screen and (max-width: 849px) {
@@ -507,12 +541,7 @@ a:hover .enlace {
   }
 }
 @media screen and (max-width: 627px) {
-  .pie-pagina .about {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 40px;
-  }
-  .pie-pagina .copyright {
+  .pie-pagina .fondo {
     display: none;
   }
 }
@@ -571,10 +600,12 @@ a:hover .enlace {
   .boxer_shop {
     padding-inline: 40px;
   }
+  .pagos {
+    margin-block: 20px;
+  }
 }
 @media screen and (max-width: 493px) {
   .contenedor {
-    padding-top: 100px;
     width: 100%;
     height: 100%;
     display: grid;
