@@ -31,7 +31,7 @@ p {
   margin-bottom: 0;
 }
 
-/*portada*/
+/*encabezado*/
 .encabezado {
   background-color: darksalmon;
 }
@@ -355,10 +355,6 @@ a:hover .enlace {
   box-shadow: none !important;
 }
 
-.accordion {
-  --bs-accordion-border-color:none;
-}
-
 .accordion-button::after {
   color: white;
 }
@@ -377,7 +373,7 @@ a:hover .enlace {
   padding-bottom: 30px;
 }
 
-/*simbolo whast app*/
+/*simbolo whast app y flecha*/
 .wpp {
   position: fixed;
   bottom: 20px;
@@ -491,6 +487,9 @@ a:hover .enlace {
     justify-content: center;
     margin-bottom: 50px;
   }
+  .acordeon {
+    margin-inline: 100px;
+  }
 }
 @media screen and (max-width: 907px) {
   .grid-container {
@@ -538,6 +537,9 @@ a:hover .enlace {
   .content {
     margin-inline: 45px;
     padding-inline: 0;
+  }
+  .acordeon {
+    margin-inline: 70px;
   }
 }
 @media screen and (max-width: 627px) {
@@ -635,5 +637,8 @@ a:hover .enlace {
   }
   .boxer_shop {
     padding-inline: 20px;
+  }
+  .acordeon {
+    margin-inline: 20px;
   }
 }/*# sourceMappingURL=new.css.map */
